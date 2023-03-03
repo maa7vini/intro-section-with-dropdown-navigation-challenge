@@ -142,3 +142,46 @@ button:hover {
     height: 600px;
     width: 500px;
 }
+
+@media (max-width: 1035px) {
+    .header-right img {
+        height: 500px;
+        width: 400px;
+    }
+
+    .icons {
+        margin-top: 50px;
+        width: 60%;
+    }
+
+    .icons img {
+        margin: 0px 10px;
+    }
+}
+
+@media (max-width: 860px) {
+    .header-right img {
+        height: 450px;
+        width: 350px;
+    }
+
+    .icons {
+        width: 50%
+    }
+
+    .icons img {
+        margin: 0px 5px;
+    }
+}
+
+@media (max-width: 815px) {
+    .header-titulo {
+        font-size: 1.7em;
+    }
+
+    .header-p {
+        font-size: 1em;
+        line-height: 1.3em;
+    }
+    
+}
